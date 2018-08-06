@@ -1,2 +1,8 @@
-# Literature-Review-Notes
-Notes written on my journey of scientific literature review.
+# 我的文献阅读笔记
+
+## 如何生成
+
+```r
+library(bookdown)
+render_book("index.Rmd", "bookdown::gitbook")
+```
